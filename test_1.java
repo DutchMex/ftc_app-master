@@ -17,5 +17,12 @@ public class test_1 {
     float RBP;
     @Override
     public void init() {
-       
+        LF = hardwareMap.dcMotor.get("LF");
+        LB = hardwareMap.dcMotor.get("LB");
+        RF = hardwareMap.dcMotor.get("RF");
+        RB = hardwareMap.dcMotor.get("RB");
+
+        LF.setDirection(DcMotor.Direction.REVERSE);
+        LB.setDirection(DcMotor.Direction.REVERSE);
+
     }
