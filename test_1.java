@@ -1,5 +1,6 @@
 package org.firstinspires.ftc.teamcode;
 
+<<<<<<< HEAD
 import com.qualcomm.robotcore.hardware.DcMotor;
 
 /**
@@ -71,3 +72,6 @@ v@Override
        
 >>>>>>> master
     }
+=======
+i
+>>>>>>> master
