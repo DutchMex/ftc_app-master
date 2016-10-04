@@ -17,6 +17,47 @@ public class test_1 {
     float RBP;
     @Override
     public void init() {
+<<<<<<< HEAD
+=======
+        @Override
+    public void init() {
+        LF = hardwareMap.dcMotor.get("LF");
+        LB = hardwareMap.dcMotor.get("LB");
+        RF = hardwareMap.dcMotor.get("RF");
+        RB = hardwareMap.dcMotor.get("RB");
+
+        LF.setDirection(DcMotor.Direction.REVERSE);
+        LB.setDirection(DcMotor.Direction.REVERSE);
+@Override
+    public void init() {
+        LF = hardwareMap.dcMotor.get("LF");
+        LB = hardwareMap.dcMotor.get("LB");
+        RF = hardwareMap.dcMotor.get("RF");
+        RB = hardwareMap.dcMotor.get("RB");
+
+        LF.setDirection(DcMotor.Direction.REVERSE);
+        LB.setDirection(DcMotor.Direction.REVERSE);
+v@Override
+    public void init() {
+        LF = hardwareMap.dcMotor.get("LF");
+        LB = hardwareMap.dcMotor.get("LB");
+        RF = hardwareMap.dcMotor.get("RF");
+        RB = hardwareMap.dcMotor.get("RB");
+
+        LF.setDirection(DcMotor.Direction.REVERSE);
+        LB.setDirection(DcMotor.Direction.REVERSE);
+v@Override
+    public void init() {
+        LF = hardwareMap.dcMotor.get("LF");
+        LB = hardwareMap.dcMotor.get("LB");
+        RF = hardwareMap.dcMotor.get("RF");
+        RB = hardwareMap.dcMotor.get("RB");
+
+        LF.setDirection(DcMotor.Direction.REVERSE);
+        LB.setDirection(DcMotor.Direction.REVERSE);
+@Override
+    public void init() {
+>>>>>>> master
         LF = hardwareMap.dcMotor.get("LF");
         LB = hardwareMap.dcMotor.get("LB");
         RF = hardwareMap.dcMotor.get("RF");
@@ -25,4 +66,8 @@ public class test_1 {
         LF.setDirection(DcMotor.Direction.REVERSE);
         LB.setDirection(DcMotor.Direction.REVERSE);
 
+<<<<<<< HEAD
+=======
+       
+>>>>>>> master
     }
